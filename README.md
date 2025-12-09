@@ -14,19 +14,19 @@ Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harca
 
 - Feature’lar:
 
-    &nbsp; - age
+    - age
     
-    &nbsp; - gender
+    - gender
     
-    &nbsp; - category
+    - category
     
-    &nbsp; - quantity
+    - quantity
     
-    &nbsp; - price
+    - price
     
-    &nbsp; - payment\_method
+    - payment\_method
     
-    &nbsp; - shopping\_mall
+    - shopping\_mall
 
 - Target: Spending\_level (Low, Medium, High)
 
@@ -38,21 +38,21 @@ Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harca
 
 1\. \*\*Ön İşleme\*\*
 
-    &nbsp;  - Numeric feature: StandardScaler
+    - Numeric feature: StandardScaler
     
-    &nbsp;  - Categorical feature: OneHotEncoder
+    - Categorical feature: OneHotEncoder
 
 
 
 2\. \*\*Model\*\*
 
-    &nbsp;  - Logistic Regression (Optuna ile hiperparametre optimizasyonu yapıldı)
+    - Logistic Regression (Optuna ile hiperparametre optimizasyonu yapıldı)
 
 
 
 3\. \*\*Train/Validation Split\*\*
 
-    &nbsp;  - %80 Train / %20 Validation
+    - %80 Train / %20 Validation
 
 
 
