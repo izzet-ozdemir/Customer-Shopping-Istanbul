@@ -62,9 +62,7 @@ Model pipeline `models/model.pkl` olarak kaydedildi ve Streamlit uygulaması ile
 
 
 
-\## Kullanım
-
-
+## Kullanım
 
 1\. Conda environment’i aktif et:
 
@@ -73,10 +71,7 @@ Model pipeline `models/model.pkl` olarak kaydedildi ve Streamlit uygulaması ile
 conda activate istanbul\_shopping\_env
 
 
-
-
-
-\## Repo Yapısı
+## Repo Yapısı
 
 customer\_shopping\_istanbul/
 
@@ -98,21 +93,13 @@ customer\_shopping\_istanbul/
 
 
 
-
-
-\## İletişim
+## İletişim
 
 Proje ile ilgili sorular için: izzetozdemir2022@gmail.com
 
 
+## Canlı Uygulama
 
-
-
-
-
-
-
-
-
+Uygulamayı şu linkten görüntüleyebilirsiniz: [Customer Shopping Istanbul App](https://customer-shopping-istanbul-n3h98iyv3f2zcz2pzkmva6.streamlit.app/)
 
 
