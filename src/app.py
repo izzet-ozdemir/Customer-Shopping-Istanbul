@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
+import os
 
 st.set_page_config(page_title="Shopping Spending Level Predictor", layout="centered")
 st.title("🛍️ Shopping Spending Level Prediction App")
@@ -48,7 +49,9 @@ st.write(f"**Mall Variety:** {mall_variety}")
 # -------------------------
 # 3️⃣ MODEL YÜKLEME
 # -------------------------
-model = joblib.load("../models/model.pkl")
+# model = joblib.load("../models/model.pkl")
+model_path = os.path.join(os.path.dirname(__file__), "../models/model.pkl")
+model = joblib.load(model_path)
 
 # Input dataframe
 input_df = pd.DataFrame([{
