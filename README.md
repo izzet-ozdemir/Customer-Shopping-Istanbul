@@ -14,19 +14,19 @@ Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harca
 
 - Feature’lar:
 
-&nbsp; - age
-
-&nbsp; - gender
-
-&nbsp; - category
-
-&nbsp; - quantity
-
-&nbsp; - price
-
-&nbsp; - payment\_method
-
-&nbsp; - shopping\_mall
+    &nbsp; - age
+    
+    &nbsp; - gender
+    
+    &nbsp; - category
+    
+    &nbsp; - quantity
+    
+    &nbsp; - price
+    
+    &nbsp; - payment\_method
+    
+    &nbsp; - shopping\_mall
 
 - Target: Spending\_level (Low, Medium, High)
 
@@ -38,21 +38,21 @@ Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harca
 
 1\. \*\*Ön İşleme\*\*
 
-&nbsp;  - Numeric feature: StandardScaler
-
-&nbsp;  - Categorical feature: OneHotEncoder
+    &nbsp;  - Numeric feature: StandardScaler
+    
+    &nbsp;  - Categorical feature: OneHotEncoder
 
 
 
 2\. \*\*Model\*\*
 
-&nbsp;  - Logistic Regression (Optuna ile hiperparametre optimizasyonu yapıldı)
+    &nbsp;  - Logistic Regression (Optuna ile hiperparametre optimizasyonu yapıldı)
 
 
 
 3\. \*\*Train/Validation Split\*\*
 
-&nbsp;  - %80 Train / %20 Validation
+    &nbsp;  - %80 Train / %20 Validation
 
 
 
@@ -75,21 +75,21 @@ conda activate istanbul\_shopping\_env
 
 customer\_shopping\_istanbul/
 
-├── data/             # Dataset
-
-├── docs/             # Markdown notlar / kısa doküman
-
-├── models/           # model.pkl
-
-├── notebooks/        # EDA ve final pipeline notebook
-
-├── src/
-
-│   └── app.py        # Streamlit uygulaması
-
-├── README.md
-
-└── requirements.txt
+    ├── data/             # Dataset
+    
+    ├── docs/             # Markdown notlar / kısa doküman
+    
+    ├── models/           # model.pkl
+    
+    ├── notebooks/        # EDA ve final pipeline notebook
+    
+    ├── src/
+    
+    │   └── app.py        # Streamlit uygulaması
+    
+    ├── README.md
+    
+    └── requirements.txt
 
 
 
