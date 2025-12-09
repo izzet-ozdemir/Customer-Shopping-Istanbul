@@ -1,18 +1,18 @@
-\# Customer Shopping Istanbul
+# Customer Shopping Istanbul
 
 
 
-\## Proje Açıklaması
+## Proje Açıklaması
 
 Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harcama seviyesini (Low, Medium, High) tahmin eden bir makine öğrenimi uygulamasıdır.
 
 
 
-\## Kullanılan Veri
+## Kullanılan Veri
 
-\- Dataset: müşteri alışveriş kayıtları (.csv)
+- Dataset: müşteri alışveriş kayıtları (.csv)
 
-\- Feature’lar:
+- Feature’lar:
 
 &nbsp; - age
 
@@ -28,11 +28,11 @@ Bu proje, İstanbul'daki alışveriş verilerini kullanarak müşterilerin harca
 
 &nbsp; - shopping\_mall
 
-\- Target: Spending\_level (Low, Medium, High)
+- Target: Spending\_level (Low, Medium, High)
 
 
 
-\## Pipeline ve Model
+## Pipeline ve Model
 
 
 
